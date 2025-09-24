@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #999ddf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: #fdfaff;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(106, 13, 173, 0.15);
+    text-align: center;
+}
+
+h2 {
+    color: #9b59b6;
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    width: 400px;
+    height: 35px;
+    border: 1px solid #c5a3f5;
+    border-radius: 8px;
+    padding: 10px ;
+    background-color: #f5f0ff;
+}
+
+button {
+    display: block;
+    width: 400px;
+    margin: 15px auto;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #9b59b6;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #7b1fa2;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #9b59b6; 
+    margin-inline-end: 10px;
+}
+
+p a {
+    color: #9b59b6; 
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+.error ,#notregister{
+  color: #d35400;    
+  font-size: 14px;
+  margin-top: 5px;
+  display: block;
+  height: 16px;
+  display: none;
+}
+#successMessage{
+    color: green;
+     display: none;
+}
+body[lang="ar"] {
+    direction: rtl;
+}
+
+body[lang="ar"] input {
+    text-align: right;
+}
+#langBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;      
+    height: 50px;      
+    border: none;
+    border-radius: 50%;   
+    background-color: #9b59b6;
+    color: white;
+    font-size: 16px;       
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#langBtn:hover {
+    background-color: #7b1fa2;
+}
+body[lang="ar"] input {
+    text-align: right;
+}
+
+h2 {
+    
+    font-weight: 900;          
+    /* margin-bottom: 20px; */
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.4); 
+   
+}
+

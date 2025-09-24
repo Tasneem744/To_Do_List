@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div>
+        <button id="langBtn">ع</button>
+        <form>
+            <h2 class="welcome">Welcome! Create Your Account</h2>
+            <input type="text" id="firstName" placeholder="First Name">
+            <span class="error" id="firstNameError"></span>
+
+            <input type="text" id="lastName" placeholder="Last Name">
+            <span class="error" id="lastNameError"></span>
+
+            <input type="email" id="registerEmail" placeholder="Email">
+            <span class="error" id="emailError"></span>
+
+            <input type="password" id="registerPassword" placeholder="Password">
+            <span class="error" id="passwordError"></span>
+
+            <button type="submit">Register</button>
+
+            <p id="successMessage" style="display:none;"></p>
+            <p class="account"> <a href="login.html">Login</a></p>
+        </form>
+    </div>
+    <script src="javascript/lang.js"></script>
+    <script src="javascript/register.js"></script>
+</body>
+</html>

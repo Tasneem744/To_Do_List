@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f0ff; /* بنفسجي فاتح جدًا */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(128, 0, 128, 0.15);
+  width: 350px;
+  text-align: center;
+}
+
+h2 {
+  color: #6a0dad; /* بنفسجي غامق */
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #d1b3ff; /* بنفسجي فاتح */
+  background-color: #f0e6ff; /* بنفسجي فاتح جدًا */
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #8a2be2; /* بنفسجي متوسط */
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #7b1fa2; /* بنفسجي أغمق */
+}
+
+p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+p a {
+  color: #6a0dad;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
